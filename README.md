@@ -2,10 +2,15 @@
 
 A simple function that will send PSR-7 `ResponseInterface` headers and body.
 
+## Installation
+
+```php
+composer require http-interop/response-sender
+```
+
 ## Usage
 
 ```php
-// Import the send() function for usage.
 use function Http\Response\send;
 
 // Any ResponseInterface instance can be used.
