@@ -3,7 +3,7 @@
 namespace Http\Response;
 
 use phpmock\phpunit\PHPMock;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Psr7\Response;
 
 class SendTest extends TestCase
